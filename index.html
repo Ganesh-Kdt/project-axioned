@@ -2,7 +2,8 @@
 <html>
     <head>
         <link href="./index.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/ca982e8e9e.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
@@ -11,12 +12,12 @@
     <body>
         <div id="main-container">
             <div id="header">
-                <div id>Arsha</div>
+                <div id="name">Arsha</div>
                 <div id="list">
-                    <div class="inside-list">HOME</div>
-                    <div class="inside-list">BLOG</div>
-                    <div class="inside-list">PORTFOLIO</div>
-                    <div class="inside-list">CONTACT</div>
+                    <div class="inside-list" id="home">HOME</div>
+                    <div class="inside-list" id="blog">BLOG</div>
+                    <div class="inside-list" id="portfolio">PORTFOLIO</div>
+                    <div class="inside-list" id="contact">CONTACT</div>
                 </div>
             </div>
             <div id="image-container">
@@ -33,45 +34,148 @@
                 <div id="only-text1">Create your outstanding clean and high quality website</div>
                 <div id="only-text2">VOLUPTATEM ACCUSANTIUM DOLOREMQUE LAUDANTIUM SPREA TOTAM REM APERIAM</div>
             </div>
-            <div id="recent-work">My Recent Works</div>
+            <div class="team">My Recent Works</div>
             <div id="multiple-container">
                 <div class="inside-multiple-container">
                     <div class="inside-multiple-container1">Fully responsive</div>
                     <div class="inside-multiple-container2"><i class="fas fa-desktop fa-2x"></i></div>
                     <div class="inside-multiple-container3">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
-                    <div class="inside-multiple-container4"><span>Learn more </span><i class="fas fa-arrow-right    "></i></div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more </span><i class="fas fa-arrow-right    "></i></div>
                     <div class="inside-multiple-container5"></div>
                 </div>
                 <div class="inside-multiple-container">
                     <div class="inside-multiple-container1">Modern Design</div>
                     <div class="inside-multiple-container2"><i class="fa fa-cloud fa-2x" aria-hidden="true"></i></div>
                     <div class="inside-multiple-container3">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
-                    <div class="inside-multiple-container4"><span>Learn more </span><i class="fas fa-arrow-right    "></i></div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more </span><i class="fas fa-arrow-right    "></i></div>
                     <div class="inside-multiple-container5"></div>
                 </div>
                 <div class="inside-multiple-container">
                     <div class="inside-multiple-container1">High Quality</div>
                     <div class="inside-multiple-container2"><i class="fa fa-location-arrow fa-2x" aria-hidden="true"></i></div>
                     <div class="inside-multiple-container3">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
-                    <div class="inside-multiple-container4"><span>Learn more </span><i class="fas fa-arrow-right    "></i></div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more </span><i class="fas fa-arrow-right    "></i></div>
                     <div class="inside-multiple-container5"></div>
                 </div>
                 <div class="inside-multiple-container inside-multiple-container-grow">
                     <div class="inside-multiple-container1">Quick Support</div>
-                    <div class="inside-multiple-container2"><i class="fas fa-heart fa-2x"></i></div>
+                    <div class="inside-multiple-container2"><i class="far fa-heart fa-2x"></i></div>
                     <div class="inside-multiple-container3">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
-                    <div class="inside-multiple-container4"><span>Learn more </span><i class="fas fa-arrow-right    "></i></div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more </span><i class="fas fa-arrow-right    "></i></div>
                     <div class="inside-multiple-container5"></div>
                 </div>
                 <div class="inside-multiple-container inside-multiple-container-grow">
                     <div class="inside-multiple-container1">Easy Customize</div>
                     <div class="inside-multiple-container2"><i class="fas fa-laptop fa-2x"></i></div>
                     <div class="inside-multiple-container3">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
-                    <div class="inside-multiple-container4"><span>Learn more </span><i class="fas fa-arrow-right    "></i></div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more </span><i class="fas fa-arrow-right    "></i></div>
                     <div class="inside-multiple-container5"></div>
                 </div>
             </div>
-            <div id="about">About us</div>
+            <div class="team">About us</div>
+            <div id="about-us">
+                <div id="about-text1"><img id="about-us-img" src="./images/5.jpg" alt="image not found"/></div>
+                <div id="about-text2">
+                    <div id="about-text-title">Voluptatem accusantium doloremque</div>
+                    <div class="about-text-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat voluptates fuga at? Sequi, aut sapiente! Odio minus nobis iusto voluptas, eos similique maxime corrupti vel nostrum. Expedita unde possimus facere.</div>
+                    <div class="about-text-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat voluptates fuga at? Sequi, aut sapiente! Odio minus nobis iusto voluptas, eos similique maxime corrupti vel nostrum. Expedita unde possimus facere.</div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></div>                    
+                </div>
+            </div>
+            <div class="team">Our Team</div>
+            <div id="team-container">
+                <div class="inside-team-container">
+                    <div class="inside-team-container-name">Alexandra</div>
+                    <div class="inside-team-container-icon"><i class="fas fa-bars fa-2x"></i></div>
+                    <div class="inside-team-container-img"><img class="team-img" src="./images/3.jpg" alt="image not found"/></div>
+                    <div class="inside-team-container-text">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more</span> <i class="fas fa-arrow-right    "></i></div>
+                    <div class="only-div"></div>
+                </div>
+                <div  class="inside-team-container">
+                    <div class="inside-team-container-name">John Doe</div>
+                    <div class="inside-team-container-icon"><i class="far fa-copy fa-2x"></i></div>
+                    <div class="inside-team-container-img"><img class="team-img" src="./images/13.jpg" alt="image not found"/></div>
+                    <div class="inside-team-container-text">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
+                    <div class="learn"><span onmouseenter="fn1(this)" onmouseleave="fn2(this)">Learn more</span> <i class="fas fa-arrow-right    "></i></div>
+                    <div class="only-div"></div>
+                </div>
+                <div  class="inside-team-container">
+                    <div class="inside-team-container-name">Kelly Hidayah</div>
+                    <div class="inside-team-container-icon"><i class="fas fa-location-arrow fa-2x "></i></div>
+                    <div class="inside-team-container-img"><img class="team-img" src="./images/members3.jpg" alt="image not found"/></div>
+                    <div class="inside-team-container-text">Voluptatem accusantium doloremque laudantium sprea totam rem aperiam</div>
+                    <div class="learn"><span onmouseenter="fn1(this)"  onmouseleave="fn2(this)">Learn more</span> <i class="fas fa-arrow-right    "></i></div>
+                    <div class="only-div"></div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="inside-footer">
+                    <div class="inside-footer-title">Get in touch with us</div>
+                    <div>
+                        <div class="arsha">Arsha company inc</div>
+                        <div>Moderbuilding suite V124,</div>
+                        <div>AB01</div>
+                        <div>Someplace 16425 Earth</div>
+                        <div id="address">
+                        <div>(123)456-7890-(123)</div>
+                        <div>555-7891</div>
+                        <div>email@domainname.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inside-footer">
+                    <div class="inside-footer-title">Pages</div>
+                    <div>
+                        <div class="pages">Press release</div>
+                        <div class="pages">Terms and conditions</div>
+                        <div class="pages">Privacy policy</div>
+                        <div class="pages">Career center</div>
+                        <div class="pages">Contact us</div>
+                    </div>
+                </div>
+                <div  class="inside-footer">
+                    <div class="inside-footer-title">Latest posts</div>
+                    <div>
+                        <div class="lp-spacing">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                        <div class="lp-spacing">Fugit ratione ex consectetur veniam non quia odio distinctio officia, excepturi eum voluptates impedit voluptas.</div>
+                        <div class="lp-spacing">Quibusdam harum asperiores vero, magnam beatae delectus.</div>
+                    </div>
+                </div>
+                <div  class="inside-footer">
+                    <div class="inside-footer-title">Flickr photostream</div>
+                    <div id="footer-img-flex">
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/2.jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/2a.jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img"  class="footer-img" src="./images/3 (1).jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/10.jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/13.jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/23.jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/6.jpg" alt="image not found"/></div>
+                        <div class="footer-img-div"><img  class="footer-img" src="./images/4.jpg" alt="image not found"/></div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+                <div>&#169; Arsha 2014 All right reserved.By bootstraptaste</div>
+                <div>
+                    <i class="fa fa-facebook icon-spacing" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-spacing" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin icon-spacing" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p icon-spacing" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus icon-spacing" aria-hidden="true"></i>
+                </div>
+            </div>
         </div>
+        <script>
+            function fn1(e)
+            {
+                e.classList.add("learn_in")
+            }
+            function fn2(e)
+            {
+                e.classList.remove("learn_in")
+            }
+        </script>
     </body>
 </html>

@@ -4,12 +4,17 @@
     margin:auto;
     font-family: 'Montserrat', sans-serif;
 }
+#name
+{
+    font-size: 1.8rem;
+    color: lightskyblue;
+}
 #header
 {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width:80%;
+    width:90%;
     margin:auto;
     margin-top:30px;
     margin-bottom: 30px;
@@ -23,8 +28,32 @@
 }
 .inside-list
 {
-    margin-left:10px;
-    margin-right: 10px;
+    padding:10px;
+    margin:10px;
+}
+#home
+{
+    background-color: lightskyblue;
+    color: white;
+}
+#home:hover
+{
+    background-color:yellowgreen;
+}
+#blog:hover
+{
+    background-color:yellowgreen;
+    color:white
+}
+#portfolio:hover
+{
+    background-color:yellowgreen;
+    color:white
+}
+#contact:hover
+{
+    background-color:yellowgreen;
+    color:white
 }
 img
 {
@@ -89,7 +118,7 @@ img
 }
 #recent-work
 {
-    padding:20px 0px;
+    padding:30px 0px;
     border-bottom:1px solid lightgray;
     font-size: 1.8rem;
     font-weight: 500;
@@ -130,20 +159,163 @@ img
     margin: auto;
     margin-top: 30px;
 }
-.inside-multiple-container4
-{
-    margin-top: 30px;
-    margin-bottom: 60px;
-}
+
 .inside-multiple-container5
 {
     background-color: lightskyblue;
     height: 10%;
 }
-#about
+#about-us
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+#about-text1
+{
+    width:48%
+}
+#about-text2
+{
+    width:45%
+}
+#about-us-img
+{
+    height:300px;
+}
+#about-text-title
+{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.about-text-para
+{
+    margin-bottom: 40px;
+}
+.learn
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color:lightskyblue
+}
+.learn_in
+{
+    background-color: limegreen;
+    color: white;
+}
+.team
 {
     font-size: 1.8rem;
     font-weight: 500;
     padding: 30px 0px;
+    border-bottom: 1px solid lightgray;    
+}
+#team-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.inside-team-container
+{
+    width:30%;
+    text-align: center;
+    background-color: lightgray;
+}
+.inside-team-container-name
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.inside-team-container-icon
+{
+    margin-bottom: 25px;
+}
+.inside-team-container-text
+{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.team-img
+{
+    width: 60%;
+    height:150px;
+}
+.only-div
+{
+    background-color: lightskyblue;
+    height: 7%;
+}
+#footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 60px 0px;
+    border-top:  1px solid lightgray;
     border-bottom: 1px solid lightgray;
+}
+.inside-footer
+{
+    width:23%
+}
+#footer-img-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.footer-img-div
+{
+    width:30%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.footer-img
+{
+    height:50px;
+    width:100%
+}
+.inside-footer-title
+{
+    margin-bottom: 20px;
+}
+.arsha
+{
+    font-weight: 700;
+}
+#address
+{
+   
+    width:70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.pages
+{
+    margin-bottom: 5px;
+}
+.lp-spacing
+{
+    margin-bottom: 10px;
+}
+#copyright
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.icon-spacing
+{
+    margin:0px 5px
 }
