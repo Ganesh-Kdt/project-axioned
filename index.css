@@ -294,8 +294,10 @@ img
 }
 .inside-team-container-text
 {
+    margin:auto;
     margin-top: 20px;
     margin-bottom: 35px;
+    width:70%;
 }
 .team-img
 {
