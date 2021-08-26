@@ -6,8 +6,8 @@
 }
 #name
 {
-    font-size: 1.8rem;
-    color: lightskyblue;
+    font-size: 2rem;
+    color: rgb(85, 185, 248);
 }
 #header
 {
@@ -33,27 +33,31 @@
 }
 #home
 {
-    background-color: lightskyblue;
+    background-color: rgb(85, 185, 248);
     color: white;
 }
 #home:hover
 {
     background-color:yellowgreen;
+    cursor:pointer
 }
 #blog:hover
 {
     background-color:yellowgreen;
-    color:white
+    color:white;
+    cursor:pointer
 }
 #portfolio:hover
 {
     background-color:yellowgreen;
-    color:white
+    color:white;
+    cursor:pointer
 }
 #contact:hover
 {
     background-color:yellowgreen;
-    color:white
+    color:white;
+    cursor:pointer
 }
 img
 {
@@ -73,41 +77,43 @@ img
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    color:white
 }
 #img-text1
 {
     padding:20px 5px ;
-    background-color: aqua;
+    background-color: rgb(85, 185, 248);
     font-size: 2.5rem;
 }
 #img-text2
 {
     margin:10px 0px;
     padding:10px 5px;
-    background-color: aqua;
+    background-color: rgb(85, 185, 248);
 }
 #img-text3
 {
     font-size: 1.5rem;
     padding:10px 5px;
-    background-color: aqua;
+    background-color: rgb(85, 185, 248);
 }
 #arrow-right
 {
     position: absolute;
     top:50%;
     right:0%;
-    color: lightblue
+    color: rgb(85, 185, 248);
 }
 #arrow-left
 {
     position: absolute;
     top:50%;
     left:0%;
-    color: lightblue
+    color: rgb(85, 185, 248);
 }
 #only-text
 {
+    color:rgb(85, 185, 248);
     margin: 35px 0px;
     text-align: center;
 }
@@ -137,7 +143,7 @@ img
 {
     width:30%;
     background-color: rgb(231, 228, 228);
-    margin:20px 0px
+    margin:30px 0px
 }
 .inside-multiple-container-grow
 {
@@ -162,7 +168,7 @@ img
 
 .inside-multiple-container5
 {
-    background-color: lightskyblue;
+    background-color: rgb(85, 185, 248);
     height: 10%;
 }
 #about-us
@@ -191,6 +197,7 @@ img
     margin-bottom: 30px;
     text-align: center;
     font-size: 1.2rem;
+    color: rgb(85, 185, 248);
 }
 .about-text-para
 {
@@ -207,6 +214,7 @@ img
 {
     background-color: limegreen;
     color: white;
+    cursor:pointer
 }
 .team
 {
@@ -214,6 +222,7 @@ img
     font-weight: 500;
     padding: 30px 0px;
     border-bottom: 1px solid lightgray;    
+    color:rgb(85, 185, 248);
 }
 #team-container
 {
@@ -251,7 +260,7 @@ img
 }
 .only-div
 {
-    background-color: lightskyblue;
+    background-color:rgb(85, 185, 248); 
     height: 7%;
 }
 #footer
@@ -288,6 +297,7 @@ img
 .inside-footer-title
 {
     margin-bottom: 20px;
+    color:rgb(85, 185, 248);
 }
 .arsha
 {
@@ -313,9 +323,18 @@ img
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin:30px 0px
 }
 .icon-spacing
 {
     margin:0px 5px
+}
+.color-change
+{
+    color:rgb(85, 185, 248);
+}
+a
+{
+    text-decoration: none;
+    color:inherit
 }
